@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Add = () => {
   const [quantity, setQuantity] = useState(1);
-  //Temporary
+  // Temporary
   const stock = 4;
   const handleQuantity = (type: "i" | "d") => {
     if (type == "d" && quantity > 1) {
